@@ -29,7 +29,7 @@ const Header = () => {
 
     return (
         <div className='bg-smoky-back -mb-24'>
-            <div className='flex justify-between items-center pt-4 container max-w-[1140px] mx-auto max-xl:px-5 '>    
+            <div className='flex justify-between items-center pt-4 container max-w-[1140px] mx-auto max-xl:px-5 '>
                 <div className='items-center'>
                     <a href="/" className='z-50 relative'>
                         <img src={PageLogo} alt="Page_Logo" /></a>
