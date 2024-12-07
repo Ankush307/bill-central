@@ -49,7 +49,7 @@ const Header = () => {
                 </button>
                 <div className={`flex gap-6 max-lg:flex-col max-lg:fixed max-lg:top-0 max-lg:w-full max-lg:h-screen max-lg:justify-center z-10 max-lg:items-center max-lg:bg-[#00A8E8] max-lg:transition-all max-lg:duration-300 ${open ? 'max-lg:left-0' : 'left-full'}`}>
                     {HERDER_LIST.map((data, i) => (
-                        <a onClick={closeNavbar} className='whitespace-nowrap transition-all duration-300 text-white leading-150 text-[18px] relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] max-lg:text-[22px] after:bg-ferrari-red after:transition-all after:duration-300 hover:after:w-full after:' href={data.link} key={i}>{data.name}</a>
+                        <a onClick={closeNavbar} className='whitespace-nowrap transition-all duration-300 text-[#E6EDF0] leading-150 text-[18px] relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] max-lg:text-[22px] after:bg-ferrari-red after:transition-all after:duration-300 hover:after:w-full after:' href={data.link} key={i}>{data.name}</a>
                     )
                     )}
                     <button className='flex lg:hidden items-center gap-1 py-3 px-[27px] !text-lg font-bold text-base rounded-[0_50px_50px_20px] bg-white'>
