@@ -5,7 +5,7 @@ import heroBg from './assets/image/webp/hero-bg.webp';
 
 function App() {
   return (
-    <div className="!bg-no-repeat bg-cover bg-center min-h-screen"
+    <div className="!bg-no-repeat bg-center max-xl:bg-cover"
       style={{ backgroundImage: `url(${heroBg})` }}>
       <Header />
       <Hero />
